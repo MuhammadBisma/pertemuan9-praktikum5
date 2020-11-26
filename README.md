@@ -120,5 +120,5 @@ baris perintah dibawah ini digunakan untuk membuat pintasan "ubah" pada database
 ```
 
 
-Berikut adalah tampilan outputnya;
+Berikut adalah tampilan outputnya; <br>
 ![gitpush](foto/4.png) <br>
