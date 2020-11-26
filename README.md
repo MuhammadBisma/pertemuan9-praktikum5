@@ -11,7 +11,7 @@ pada praktikum 5 ini, saya akan membuat program sederhana untuk menginput data k
 
 
 ### Membuat Pintasan "Keluar"
-Kali ini kita akan membuat pintasan "keluar" dengan baris perintah sebagai berikut
+Kali ini kita akan membuat pintasan "keluar" dengan baris perintah sebagai berikut : 
 
 ```python
     if menu.lower() == 'k':
@@ -20,7 +20,7 @@ Kali ini kita akan membuat pintasan "keluar" dengan baris perintah sebagai berik
 ![gitpush](foto/1.png) <br>
 
 ### Membuat Pintasan "lihat"
-dan ini adalah baris perintah untuk membuat perintah "lihat"
+dan ini adalah baris perintah untuk membuat perintah "lihat" : 
 
 ```python
     elif menu.lower() == 'l':
@@ -66,7 +66,7 @@ kali ini kita akan membuat baris perintah "tambah" untuk menambahkan data baru k
 ```
 
 
-Berikut adalah tampilan outputnya;
+Berikut adalah tampilan outputnya : 
 ![gipush](foto/3.png) <br>
 
 ### Membuat Pintasan "Ubah"
@@ -120,7 +120,7 @@ baris perintah dibawah ini digunakan untuk membuat pintasan "ubah" pada database
 ```
 
 
-Berikut adalah tampilan outputnya; <br>
+Berikut adalah tampilan outputnya : <br>
 ![gitpush](foto/4.png) <br>
 
 ### Membuat Pintasan "Cari"
@@ -142,7 +142,28 @@ Pintasan "cari" dibuat untuk memudahkan kita mencari data yang kita inginkan di 
 ```
 
 
-Berikut adalah tampilan outputnya; <br>
+Berikut adalah tampilan outputnya : <br>
 ![gitpush](foto/5.png) <br>
+
+### Membuat Pintasan "Hapus"
+Pintasan "hapus" ini berfungsi untuk menghapus data yang ada di dalam database, berikut adalah baris perintahnya
+
+```python
+    elif menu.lower() == 'h':
+        nama = input("Masukan nama untuk menghapus sub_data : ")
+        if nama in data.keys():
+            del data[nama]
+            print("sub_data '{}' berhasil dihapus.".format(nama))
+        else:
+            print("'{}' tidak ditemukan.".format(nama))
+
+    else:
+        print("Upss ada yang salah, silahkan cek kembali.")
+```
+
+
+Berikut adalah tampilan outputnya : <br>
+![gitpush](foto/6.png) <br>
+
 
 
