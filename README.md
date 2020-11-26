@@ -165,5 +165,11 @@ Pintasan "hapus" ini berfungsi untuk menghapus data yang ada di dalam database, 
 Berikut adalah tampilan outputnya : <br>
 ![gitpush](foto/6.png) <br>
 
+### Hasil Akhir
+
+Pada pertemuan kali ini hasil akhir atau tampilan output yang diminta oleh bapak/ibu dosen pada praktikum 5 adalah sebagai berikut
+
+Berikut adalah tampilan outputnya : 
+![gitpush](foto/hasilakhir.png) <br>
 
 
